@@ -10,8 +10,8 @@ black=(0,0,0)
 green=(51,102,0)
 yellow=(0,255,255)
 
-win_width=600
-win_height=400
+win_width=800
+win_height=600
 window= pygame.display.set_mode((win_width,win_height))
 pygame.display.set_caption("Snake Game")
 time.sleep(2)
@@ -57,7 +57,7 @@ def game_loop():
     while not gameOver:
         while gameClose == True:
             window.fill(black)
-            message("You Lost !! press p to play the game and q to exit")
+            message("You Lost !! press p to play the game or q to exit")
             user_score(snake_length-1)
             pygame.display.update()
             
