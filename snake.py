@@ -17,7 +17,7 @@ pygame.display.set_caption("Snake Game")
 time.sleep(2)
 
 snake= 10
-snake_speed= 15
+snake_speed= 10
 
 clock= pygame.time.Clock()
 
